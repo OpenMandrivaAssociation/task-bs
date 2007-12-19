@@ -18,6 +18,7 @@ build system nodes.
 %package common
 Summary: Task package for common tools on Mandriva build system nodes
 Group: System/Servers
+Requires: openssh-server
 
 %description common
 This task package installs the required common components for the
