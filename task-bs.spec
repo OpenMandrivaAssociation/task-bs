@@ -30,6 +30,7 @@ Mandriva build system nodes.
 Summary: Task package for base system of the Mandriva cluster nodes
 Group: System/Servers
 Requires: task-bs-common
+Requires: nfs-server
 
 %description cluster-base
 This task package installs the required components for the base system
@@ -48,6 +49,7 @@ of the Mandriva cluster nodes, running cooker.
 Summary: Task package for the main node of the Mandriva cluster
 Group: System/Servers
 Requires: task-bs-common
+Requires: nfs-server
 
 %description cluster-main
 This task package installs the required components for the main node
@@ -57,6 +59,7 @@ of the Mandriva cluster.
 Summary: Task package for mirror upload node in Mandriva build system
 Group: System/Servers
 Requires: task-bs-common
+Requires: nfs-server
 
 %description mirror-upload
 This task package installs the required components for the mirror upload
