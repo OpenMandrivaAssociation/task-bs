@@ -54,7 +54,7 @@ Requires: nfs-server
 
 %description cluster-main
 This task package installs the required components for the main node
-of the Mandriva cluster.
+of the Mandriva cluster (currently kenobi).
 
 %package mirror-upload
 Summary: Task package for mirror upload node in Mandriva build system
@@ -64,7 +64,7 @@ Requires: nfs-server
 
 %description mirror-upload
 This task package installs the required components for the mirror upload
-node of the Mandriva build system.
+node of the Mandriva build system (currently raoh).
 
 %prep
 %setup -q -T -c
