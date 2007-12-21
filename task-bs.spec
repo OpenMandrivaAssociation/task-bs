@@ -69,6 +69,7 @@ Group: System/Servers
 Requires: task-bs-common
 Requires: nfs-server
 Requires: mdv-youri-submit
+Requires: dhcp-server pxe tftp-server
 
 %description mirror-upload
 This task package installs the required components for the mirror upload
