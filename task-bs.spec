@@ -55,6 +55,7 @@ of the Mandriva cluster nodes, running cooker.
 Summary: Task package for the main node of the Mandriva cluster
 Group: System/Servers
 Requires: task-bs-common
+Requires: autofs
 Requires: nfs-server
 Requires: repsys
 
