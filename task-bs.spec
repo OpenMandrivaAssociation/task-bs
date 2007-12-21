@@ -41,6 +41,7 @@ Summary: Task package for chroot system of the Mandriva cluster nodes
 Group: System/Servers
 Requires: task-bs-common
 Requires: autofs
+Requires: nfs-utils-clients
 
 %description cluster-chroot
 This task package installs the required components for the chroot system
