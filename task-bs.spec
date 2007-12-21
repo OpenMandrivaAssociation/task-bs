@@ -45,6 +45,7 @@ Requires: task-bs-common
 Requires: autofs
 Requires: nfs-utils-clients
 Requires: mdv-youri-submit
+Requires: repsys
 
 %description cluster-chroot
 This task package installs the required components for the chroot system
@@ -55,6 +56,7 @@ Summary: Task package for the main node of the Mandriva cluster
 Group: System/Servers
 Requires: task-bs-common
 Requires: nfs-server
+Requires: repsys
 
 %description cluster-main
 This task package installs the required components for the main node
