@@ -44,6 +44,7 @@ Group: System/Servers
 Requires: task-bs-common
 Requires: autofs
 Requires: nfs-utils-clients
+Requires: mdv-youri-submit
 
 %description cluster-chroot
 This task package installs the required components for the chroot system
@@ -64,6 +65,7 @@ Summary: Task package for mirror upload node in Mandriva build system
 Group: System/Servers
 Requires: task-bs-common
 Requires: nfs-server
+Requires: mdv-youri-submit
 
 %description mirror-upload
 This task package installs the required components for the mirror upload
