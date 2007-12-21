@@ -22,6 +22,7 @@ Requires: cfengine-cfagent
 Requires: openssh-server
 Requires: nss_ldap pam_ldap
 Requires: sudo
+Requires: zsh
 
 %description common
 This task package installs the required common components for the
