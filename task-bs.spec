@@ -25,6 +25,7 @@ Requires: nss_ldap pam_ldap
 Requires: sudo
 Requires: zsh
 Requires: ntp
+Requires: smartmontools
 
 %description common
 This task package installs the required common components for the
@@ -62,6 +63,7 @@ Requires: task-bs-common
 Requires: autofs
 Requires: nfs-utils
 Requires: repsys
+Requires: smartmontools
 
 %description cluster-main
 This task package installs the required components for the main node
