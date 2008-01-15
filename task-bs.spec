@@ -47,6 +47,7 @@ Requires: nfs-utils-clients
 Requires: mdv-youri-submit
 Requires: repsys
 Requires: icecream
+Requires: nscd
 
 %description cluster-chroot
 This task package installs the required components for the chroot system
