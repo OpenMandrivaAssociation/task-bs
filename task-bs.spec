@@ -20,7 +20,7 @@ Summary: Task package for common tools on Mandriva build system nodes
 Group: System/Servers
 Requires: urpmi
 Requires: cfengine-cfagent
-Requires: openssh-server
+Requires: openssh-server sshd-monitor
 Requires: nss_ldap pam_ldap
 Requires: sudo
 Requires: zsh
