@@ -18,6 +18,7 @@ build system nodes.
 %package common
 Summary: Task package for common tools on Mandriva build system nodes
 Group: System/Servers
+Requires: basesystem
 Requires: urpmi
 Requires: cfengine-cfagent
 Requires: openssh-server sshd-monitor
