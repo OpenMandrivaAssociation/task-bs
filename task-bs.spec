@@ -37,6 +37,7 @@ Summary: Task package for base system of the Mandriva cluster nodes
 Group: System/Servers
 Requires: task-bs-common
 Requires: nfs-utils
+Requires: kernel-server-latest
 
 %description cluster-base
 This task package installs the required components for the base system
