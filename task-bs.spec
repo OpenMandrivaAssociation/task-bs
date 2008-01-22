@@ -1,6 +1,6 @@
 %define name task-bs
 %define version 2008.1
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: Task package for the Mandriva build system nodes
 Name: %{name}
@@ -52,7 +52,7 @@ Requires: nfs-utils-clients
 Requires: mdv-youri-submit
 # iurt requirements
 Requires: mdv-distrib-tools mkcd perl-File-NCopy perl-Filesys-Statvfs_Statfs_Df perl-MIME-tools perl-RPM4
-Requires: repsys
+Requires: repsys perl-MDV-Repsys
 Requires: icecream
 Requires: nscd
 
