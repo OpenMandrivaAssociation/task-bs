@@ -78,7 +78,7 @@ Summary: Task package for mirror upload node in Mandriva build system
 Group: System/Servers
 Requires: task-bs-common
 Requires: nfs-utils
-Requires: mdv-youri-submit
+Requires: mdv-youri-submit mkcd
 Requires: dhcp-server pxe tftp-server
 
 %description mirror-upload
