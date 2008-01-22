@@ -80,6 +80,8 @@ Requires: task-bs-common
 Requires: nfs-utils
 Requires: mdv-youri-submit mkcd rsync
 Requires: dhcp-server pxe tftp-server
+Requires: apache-mpm-prefork
+Requires: postfix
 
 %description mirror-upload
 This task package installs the required components for the mirror upload
