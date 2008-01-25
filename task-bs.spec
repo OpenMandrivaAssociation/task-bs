@@ -1,6 +1,6 @@
 %define name task-bs
 %define version 2008.1
-%define release %mkrel 6
+%define release %mkrel 7
 
 Summary: Task package for the Mandriva build system nodes
 Name: %{name}
@@ -22,7 +22,7 @@ Requires: basesystem
 Requires: urpmi
 Requires: cfengine-cfagent
 Requires: openssh-server sshd-monitor
-Requires: nss_ldap pam_ldap
+Requires: nss_ldap pam_ldap nscd
 Requires: sudo
 Requires: zsh
 Requires: ntp
@@ -54,7 +54,6 @@ Requires: mdv-youri-submit
 Requires: mdv-distrib-tools mkcd perl-File-NCopy perl-Filesys-Statvfs_Statfs_Df perl-MIME-tools perl-RPM4
 Requires: repsys perl-MDV-Repsys
 Requires: icecream
-Requires: nscd
 
 %description cluster-chroot
 This task package installs the required components for the chroot system
