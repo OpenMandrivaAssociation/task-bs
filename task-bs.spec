@@ -1,6 +1,6 @@
 %define name task-bs
 %define version 2008.1
-%define release %mkrel 7
+%define release %mkrel 8
 
 Summary: Task package for the Mandriva build system nodes
 Name: %{name}
@@ -77,7 +77,7 @@ Summary: Task package for mirror upload node in Mandriva build system
 Group: System/Servers
 Requires: task-bs-common
 Requires: nfs-utils
-Requires: mdv-youri-submit mkcd rsync
+Requires: mdv-youri-submit mkcd rsync lftp
 Requires: dhcp-server pxe tftp-server
 Requires: apache-mpm-prefork
 Requires: postfix
