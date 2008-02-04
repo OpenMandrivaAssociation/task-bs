@@ -67,6 +67,8 @@ Requires: autofs
 Requires: nfs-utils
 Requires: repsys
 Requires: smartmontools
+Requires: apache-mpm-prefork
+Requires: kernel-server-latest
 
 %description cluster-main
 This task package installs the required components for the main node
