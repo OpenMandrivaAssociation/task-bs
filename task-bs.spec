@@ -1,6 +1,6 @@
 %define name task-bs
 %define version 2008.1
-%define release %mkrel 9
+%define release %mkrel 10
 
 Summary: Task package for the Mandriva build system nodes
 Name: %{name}
@@ -69,6 +69,7 @@ Requires: repsys
 Requires: smartmontools
 Requires: apache-mpm-prefork
 Requires: kernel-server-latest
+Requires: mdv-youri-submit
 
 %description cluster-main
 This task package installs the required components for the main node
