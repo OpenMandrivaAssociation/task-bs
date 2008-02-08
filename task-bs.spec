@@ -1,6 +1,6 @@
 %define name task-bs
 %define version 2008.1
-%define release %mkrel 8
+%define release %mkrel 9
 
 Summary: Task package for the Mandriva build system nodes
 Name: %{name}
