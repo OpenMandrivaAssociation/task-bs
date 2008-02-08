@@ -84,6 +84,7 @@ Requires: dhcp-server pxe tftp-server
 Requires: apache-mpm-prefork
 Requires: postfix
 Requires: kernel-server-latest
+Requires: make
 
 %description mirror-upload
 This task package installs the required components for the mirror upload
