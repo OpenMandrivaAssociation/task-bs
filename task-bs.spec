@@ -8,6 +8,7 @@ Version: %{version}
 Release: %{release}
 License: GPL
 Group: System/Servers
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url: http://www.mandriva.com/
 BuildArch: noarch
 
