@@ -39,6 +39,8 @@ Group: System/Servers
 Requires: task-bs-common
 Requires: nfs-utils
 Requires: kernel-server-latest
+Requires: net-snmp
+Requires: icecream
 
 %description cluster-base
 This task package installs the required components for the base system
@@ -71,6 +73,8 @@ Requires: smartmontools
 Requires: apache-mpm-prefork
 Requires: kernel-server-latest
 Requires: mdv-youri-submit
+Requires: net-snmp
+Requires: icecream-scheduler
 
 %description cluster-main
 This task package installs the required components for the main node
