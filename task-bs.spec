@@ -91,6 +91,8 @@ Requires: apache-mpm-prefork
 Requires: postfix
 Requires: kernel-server-latest
 Requires: make
+# for soft/build_system/mirror/mirrorlist called by generatelist.sh:
+Requires: libxslt-proc
 
 %description mirror-upload
 This task package installs the required components for the mirror upload
