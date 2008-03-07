@@ -1,6 +1,6 @@
 %define name task-bs
 %define version 2008.1
-%define release %mkrel 10
+%define release %mkrel 11
 
 Summary: Task package for the Mandriva build system nodes
 Name: %{name}
@@ -26,6 +26,7 @@ Requires: openssh-server sshd-monitor
 Requires: nss_ldap pam_ldap nscd
 Requires: sudo
 Requires: zsh
+Requires: nail
 Requires: ntp
 Requires: smartmontools
 
