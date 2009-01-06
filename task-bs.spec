@@ -1,6 +1,6 @@
 %define name task-bs
 %define version 2009.0
-%define release %mkrel 6
+%define release %mkrel 7
 
 Summary: Task package for the Mandriva build system nodes
 Name: %{name}
@@ -61,7 +61,8 @@ Requires: repsys perl-MDV-Repsys
 Requires: icecream
 Requires: postfix
 # urpmi requirements for migrating rpmdb db version to one compatible with chrooted rpm
-Requires: db42-utils db46-utils
+Requires: db42-utils
+Requires: db4-utils >= 4.6
 
 %description cluster-chroot
 This task package installs the required components for the chroot system
