@@ -6,7 +6,7 @@ Summary: Task package for the Mandriva build system nodes
 Name: %{name}
 Version: %{version}
 Release: %{release}
-License: GPL
+License: GPLv2+
 Group: System/Servers
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url: http://www.mandriva.com/
@@ -63,7 +63,7 @@ Requires: postfix
 # urpmi requirements for migrating rpmdb db version to one compatible with chrooted rpm
 Requires: db42-utils
 Requires: db4-utils >= 4.6
-
+Requires: rpmlint  rpmlint-mandriva-policy
 %description cluster-chroot
 This task package installs the required components for the chroot system
 of the Mandriva cluster nodes, running cooker.
