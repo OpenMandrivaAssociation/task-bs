@@ -1,6 +1,6 @@
 %define name task-bs
 %define version 2009.0
-%define release %mkrel 9
+%define release %mkrel 10
 
 Summary: Task package for the Mandriva build system nodes
 Name: %{name}
@@ -57,7 +57,8 @@ Requires: nfs-utils-clients
 Requires: mdv-youri-submit
 # iurt requirements
 Requires: mdv-distrib-tools mkcd perl-File-NCopy perl-Filesys-Df perl-MIME-tools perl-RPM4 rpmmon rsync
-Requires: repsys perl-MDV-Repsys
+Requires: repsys
+Requires: mdvsys
 Requires: icecream
 Requires: postfix
 # urpmi requirements for migrating rpmdb db version to one compatible with chrooted rpm
