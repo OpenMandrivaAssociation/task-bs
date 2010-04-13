@@ -1,6 +1,6 @@
 %define name task-bs
 %define version 2009.0
-%define release %mkrel 10
+%define release %mkrel 11
 
 Summary: Task package for the Mandriva build system nodes
 Name: %{name}
@@ -30,6 +30,8 @@ Requires: zsh
 Requires: nail
 Requires: ntp
 Requires: smartmontools
+# mkcd
+Requires: perl-Image-Size
 
 %description common
 This task package installs the required common components for the
