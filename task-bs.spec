@@ -1,6 +1,6 @@
 %define name task-bs
-%define version 2009.0
-%define release %mkrel 11
+%define version 2010.0
+%define release %mkrel 12
 
 Summary: Task package for the Mandriva build system nodes
 Name: %{name}
@@ -79,12 +79,19 @@ Requires: autofs
 Requires: nfs-utils
 Requires: repsys
 Requires: smartmontools
-Requires: apache-mpm-prefork
 Requires: kernel-server-latest
 Requires: mdv-youri-submit
 Requires: net-snmp
 Requires: icecream-scheduler
 Requires: postfix
+# for the web interface:
+Requires: apache-mpm-prefork
+Requires: apache-mod_userdir
+Requires: apache-mod_authnz_external
+Requires: apache-mod_ssl
+Requires: apache-mod_php
+Requires: php-suhosin
+Requires: php-ssh2
 
 %description cluster-main
 This task package installs the required components for the main node
