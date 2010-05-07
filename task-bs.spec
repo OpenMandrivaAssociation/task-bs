@@ -22,7 +22,7 @@ Group: System/Servers
 Requires: basesystem
 Requires: urpmi
 Requires: cfengine-cfagent
-Requires: openssh-server sshd-monitor
+Requires: openssh-server
 Requires: openldap-clients
 Requires: nss_ldap pam_ldap nscd
 Requires: sudo
