@@ -1,6 +1,6 @@
 %define name task-bs
 %define version 2010.1
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: Task package for the Mandriva build system nodes
 Name: %{name}
@@ -32,6 +32,8 @@ Requires: ntp
 Requires: smartmontools
 # mkcd
 Requires: perl-Image-Size
+# msec is hurting BS everyday:
+Conflicts: msec
 
 %description common
 This task package installs the required common components for the
@@ -45,8 +47,6 @@ Requires: nfs-utils
 Requires: kernel-server-latest
 Requires: net-snmp
 Requires: icecream
-# msec is hurting BS everyday:
-Conflicts: msec
 
 %description cluster-base
 This task package installs the required components for the base system
