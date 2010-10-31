@@ -30,7 +30,7 @@ Requires: zsh
 Requires: nail
 Requires: ntp
 Requires: smartmontools
-# mkcd
+# rpmctl (through mkcd deps)
 Requires: perl-Image-Size
 # msec is hurting BS everyday:
 Conflicts: msec
