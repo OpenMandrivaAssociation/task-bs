@@ -32,8 +32,6 @@ Requires: ntp
 Requires: smartmontools
 # rpmctl (through mkcd deps)
 Requires: perl-Image-Size
-# msec is hurting BS everyday:
-Conflicts: msec
 
 %description common
 This task package installs the required common components for the
