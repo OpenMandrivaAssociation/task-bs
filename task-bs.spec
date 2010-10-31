@@ -1,6 +1,6 @@
 %define name task-bs
 %define version 2010.1
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: Task package for the Mandriva build system nodes
 Name: %{name}
@@ -22,7 +22,7 @@ Group: System/Servers
 Requires: basesystem
 Requires: urpmi
 Requires: cfengine-cfagent
-Requires: openssh-server
+Requires: openssh-server sshd-monitor
 Requires: openldap-clients
 Requires: nss_ldap pam_ldap nscd
 Requires: sudo
