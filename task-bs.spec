@@ -59,7 +59,7 @@ Requires: autofs
 Requires: nfs-utils-clients
 Requires: mdv-youri-submit
 # iurt requirements
-Requires: mdv-distrib-tools mkcd perl-File-NCopy perl-Filesys-Df perl-MIME-tools perl-RPM4 rpmmon rsync
+Requires: mdv-distrib-tools mkcd perl-File-NCopy perl-Filesys-Df perl-MIME-tools perl-RPM rpmmon rsync
 Requires: repsys
 Requires: mdvsys
 Requires: icecream
