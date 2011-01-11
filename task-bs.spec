@@ -1,6 +1,6 @@
 %define name task-bs
 %define version 2010.1
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: Task package for the Mandriva build system nodes
 Name: %{name}
