@@ -65,7 +65,7 @@ Requires: mdvsys
 Requires: icecream
 Requires: postfix
 # urpmi requirements for migrating rpmdb db version to one compatible with chrooted rpm
-Requires: db42-utils
+#Requires: db42-utils
 Requires: db4-utils >= 4.6
 Requires: rpmlint  rpmlint-mandriva-policy
 %description cluster-chroot
