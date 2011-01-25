@@ -64,6 +64,7 @@ Requires: repsys
 Requires: mdvsys
 Requires: icecream
 Requires: postfix
+Requires: squid
 # urpmi requirements for migrating rpmdb db version to one compatible with chrooted rpm
 #Requires: db42-utils
 Requires: db4-utils >= 4.6
