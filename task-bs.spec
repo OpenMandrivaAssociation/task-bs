@@ -1,7 +1,7 @@
 
 Summary: Task package for the Mandriva build system nodes
 Name: task-bs
-Version: 2010.1
+Version: 2011.0
 Release: 1
 License: GPLv2+
 Group: System/Servers
