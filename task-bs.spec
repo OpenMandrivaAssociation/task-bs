@@ -1,7 +1,7 @@
 
 Summary: Task package for the Mandriva build system nodes
 Name: task-bs
-Version: 2011.0
+Version: 2012.0
 Release: 1
 License: GPLv2+
 Group: System/Servers
@@ -41,7 +41,6 @@ Requires: task-bs-common
 Requires: nfs-utils
 Requires: kernel-server-latest
 Requires: net-snmp
-Requires: icecream
 Requires: ganglia-core
 
 %description cluster-base
@@ -59,7 +58,6 @@ Requires: mdv-youri-submit
 Requires: mdv-distrib-tools mkcd perl-File-NCopy perl-Filesys-Df perl-MIME-tools perl-RPM rpmmon rsync
 Requires: repsys
 Requires: mdvsys
-Requires: icecream
 Requires: postfix
 Requires: squid
 # urpmi requirements for migrating rpmdb db version to one compatible with chrooted rpm
@@ -81,7 +79,6 @@ Requires: smartmontools
 Requires: kernel-server-latest
 Requires: mdv-youri-submit
 Requires: net-snmp
-Requires: icecream-scheduler
 Requires: postfix
 # for the web interface:
 Requires: apache-mpm-prefork
@@ -121,22 +118,14 @@ node of the Mandriva build system (currently raoh).
 
 %install
 rm -rf %{buildroot}
-mkdir -p %{buildroot}%{_var}/cache/icecream-local-environment
 
 %clean
 rm -rf %{buildroot}
 
 %triggerin cluster-chroot -- glibc, gcc, binutils
-rm -f %{_var}/cache/icecream-local-environment/*.tar.gz
-cd %{_var}/cache/icecream-local-environment
-ICECC_NEWVERSION=`%{_bindir}/create-env | grep creating | sed -e 's/creating //'`
-umask 0022
-echo "ICECC_VERSION=\"$PWD/$ICECC_NEWVERSION\" ; export ICECC_VERSION" > %{_sysconfdir}/profile.d/icecream-local-environment.sh
-echo "setenv ICECC_VERSION \"${PWD}/$ICECC_NEWVERSION\"" > %{_sysconfdir}/profile.d/icecream-local-environment.csh
 
 %files common
 %files cluster-base
 %files cluster-chroot
-%dir %{_var}/cache/icecream-local-environment
 %files cluster-main
 %files mirror-upload
