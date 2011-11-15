@@ -2,7 +2,7 @@
 Summary: Task package for the Mandriva build system nodes
 Name: task-bs
 Version: 2012.0
-Release: 1
+Release: 2
 License: GPLv2+
 Group: System/Servers
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
