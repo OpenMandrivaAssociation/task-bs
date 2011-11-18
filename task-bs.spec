@@ -117,7 +117,6 @@ node of the Mandriva build system (currently raoh).
 %build
 
 %install
-rm -rf %{buildroot}
 
 %clean
 rm -rf %{buildroot}
